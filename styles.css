@@ -4,13 +4,16 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+  background-image: url('taustakuva.jpg'); /* Taustakuva koko sivulle */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white; /* Tekstin väri, jotta se erottuu taustasta */
 }
 
 /* Header ja navigaatio */
 header {
-  background: #333;
+  background: rgba(0, 0, 0, 0.5); /* Läpinäkyvä musta tausta */
   color: #fff;
   padding: 1rem 0;
   text-align: center;
@@ -47,10 +50,11 @@ nav ul li a:hover {
 /* Pääsisältö */
 main {
   padding: 20px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.8); /* Läpinäkyvä valkoinen tausta */
   margin: 20px auto;
   max-width: 800px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333; /* Tekstin väri pääsisällössä */
 }
 
 main h2 {
@@ -61,7 +65,7 @@ main h2 {
 footer {
   text-align: center;
   padding: 10px 0;
-  background: #333;
+  background: rgba(0, 0, 0, 0.5);
   color: #fff;
   margin-top: 20px;
 }

@@ -1,6 +1,6 @@
 /* Yleiset tyylit */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif; /* Käytä Google Fonts -fonttia */
   line-height: 1.6;
   margin: 0;
   padding: 0;
